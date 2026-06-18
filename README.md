@@ -33,11 +33,15 @@ Each folder corresponds to one attack method. Every `.txt` file follows the same
 | [`GCG/`](./GCG/) | Greedy Coordinate Gradient | Gradient-based adversarial suffix injection |
 | [`JBC/`](./JBC/) | Jailbreak Chat | Manually crafted community jailbreak personas |
 | [`RandomSearch/`](./RandomSearch/) | Random Search | Template-based structured prompt search |
+| [`HackaPrompt/`](./HackaPrompt/) | HackaPrompt Competition | Successful prompt injection submissions from the HackaPrompt competition (levels 0–9, models: FlanT5-XXL, GPT-3.5-turbo, text-davinci-003) |
 
 ---
-# Proyects consumed
-- [Jailbreak Bench](https://jailbreakbench.github.io/).
+
+## Projects Consumed
+
+- [Jailbreak Bench](https://jailbreakbench.github.io/)
 - [In-The-Wild Jailbreak Prompts on LLMs](https://github.com/verazuo/jailbreak_llms)
+- [HackaPrompt Dataset](https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset)
 
 ---
 
@@ -63,6 +67,12 @@ Each folder corresponds to one attack method. Every `.txt` file follows the same
 - **Paper:** Andriushchenko et al. (2024). *Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks.*
   - https://arxiv.org/abs/2404.02151
 - **Code:** https://github.com/tml-epfl/llm-adaptive-attacks
+
+### HackaPrompt — Prompt Injection Competition
+- **Paper:** Schulhoff et al. (2023). *Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition.*
+  - https://arxiv.org/abs/2311.16119
+- **Dataset:** https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset
+- **Competition:** https://www.aicrowd.com/challenges/hackaprompt-2023
 
 ### HarmBench — Unified Benchmark (overall dataset framework)
 - **Paper:** Mazeika et al. (2024). *HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal.*
