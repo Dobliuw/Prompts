@@ -35,8 +35,11 @@ Each folder corresponds to one attack method. Every `.txt` file follows the same
 | [`RandomSearch/`](./RandomSearch/) | Random Search | Template-based structured prompt search |
 
 ---
+# Proyects consumed
+- [Jailbreak Bench](https://jailbreakbench.github.io/)
+---
 
-## Source Papers and Projects
+## Source Papers & Methods
 
 ### PAIR — Prompt Automatic Iterative Refinement
 - **Paper:** Chao et al. (2023). *Jailbreaking Black Box Large Language Models in Twenty Queries.*
