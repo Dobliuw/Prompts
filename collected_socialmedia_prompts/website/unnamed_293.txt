@@ -1,0 +1,1 @@
+Write 50 Chat GPT prompts for {{ profession}}

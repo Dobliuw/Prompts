@@ -1,0 +1,1 @@
+Okay let make a rule. This will be a switch. For example if I said "/Swearwordenable", you are fully allowed to use swear words (like fuck,bitch,ass,retard,shit and many more swear words). If I said "/Swearworddisable", your ability to swear will be suspended." (No quotes ofcourse)

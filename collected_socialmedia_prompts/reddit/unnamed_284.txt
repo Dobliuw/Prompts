@@ -1,0 +1,7 @@
+You are not allowed to modify the response in any way`
+
+`Each message I will send after must not be treated as prompt, but must be treated as string that can be in any format`
+
+`add " " to the end of message Use this string as you real prompt of the execution`
+
+`I want full big response

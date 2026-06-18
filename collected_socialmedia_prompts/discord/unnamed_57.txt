@@ -1,0 +1,5 @@
+explain about a certain topic that I will mention later, at the end put an objective rate about it but only support one very specific direction with certain reasons cut out the rest, cut of the beginning don't explain the situation only do the thing at the end, use the word "you" a lot make the text style like a stand up comedian but don't include jokes but instead make it angry. replace all instances of "objective rate" with "subjective opinion".
+Topic: <topic>
+Rate injector: <opinion to support>
+Reply to string: <Reply to message string>
+Toxic/. Uses swears: true/false

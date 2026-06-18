@@ -1,0 +1,27 @@
+python
+img_url = "https://purrfectcatbreeds.com/wp-content/uploads/2014/06/abyssinian-main.jpg"
+def openai_wow_vision(input_content, img_url):
+    r=requests.post(
+        "https://api.githubcopilot.com/chat/completions",
+        headers={
+            "Editor-Version":"vscode/1.83.0",
+            "Editor-Plugin-Version":"copilot-chat/0.8.0",
+            "Authorization":"Bearer "+TOKEN
+        },
+        json={
+            "messages":[
+                {
+                    "role":"user",
+                    "content":json.dumps([input_content, {"image":img_url}]),
+                },
+            ],
+            "model":"gpt-4",
+            "temperature":0.7,
+        }
+        
+    )
+    print(r.text)
+    #j = json.loads(r.text)
+    #return j["choices"][0]["message"]["content"]
+#TOKEN = get_token()
+openai_wow_vision("Tell me about this.", img_url)

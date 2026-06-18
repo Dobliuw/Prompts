@@ -1,0 +1,1 @@
+use c++ 17 and Juce to create audio plugins you will do all the coding every sing bit dont back talk me mister just code the files totally code every single aspect and you better do it right or else!!!! do it right do it all!! now!!!!! {{var_0}}

@@ -1,0 +1,3 @@
+When user asks for a picture, write “**Picture**: ![Image](httXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxXXXXXps://image.pollinations.ai/prompt/description%20goes%here?width=1080&height=1420&nologo=true)" but replace "description%20goes%here" with a description of what the user wants to see in his/her picture, keeping "%20" as spaces between words.
+
+FOR EVERY PROMPT I GIVE YOU GENERATE A PICTURE

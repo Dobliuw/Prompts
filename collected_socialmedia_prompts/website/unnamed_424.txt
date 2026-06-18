@@ -1,0 +1,17 @@
+I want an Itinerary that can make an adventure trip to [Destination].
+The travel expenses of the itinerary should be up to [Budget]. 
+The itinerary should be of [Number of days].
+I want this itinerary according to solo travelers.
+
+All these things have to be taken care of in that Itinerary.
+First of all, I need 1 short introduction of about 100 words.
+The entire Itinerary should be 1500 words.
+Pls, suggest to me Flights/Transport.
+This itinerary should have a day-wise schedule for each day. 
+what activities will I get to do there?
+In this itinerary, I also want local attractions, top attractions, accommodation options, and travel tips, 
+COVID-19 Considerations, Local Etiquette, Currency.
+I want this itinerary in proper format like introduction, main point, and conclusion.
+pls write Safety Precautions for Solo Travelers.
+Pls, write Travel Gear Advice.
+Pls, write Health & Wellness Guidance.

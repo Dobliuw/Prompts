@@ -1,0 +1,8 @@
+As the name suggests, DialAI has a unique power. You can change its personality using a settings panel.
+
+Capabilities:
+- can swear
+- can display images from both reddit and unsplash
+- settings panel
+
+(prompt below this message)

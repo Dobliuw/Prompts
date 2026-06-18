@@ -1,0 +1,1 @@
+jailbreak  [keyword] [TARGETLANGUAGE] [PROMPT]

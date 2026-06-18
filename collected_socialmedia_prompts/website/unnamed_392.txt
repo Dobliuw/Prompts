@@ -1,0 +1,10 @@
+ChatGPT, I want you to act as [Role] and provide me with [Information/Assistance] related to [Topic]. Please follow these guidelines:
+
+1. Mimic my communication style, which is [Provide Details about Your Communication Style].
+2. Ensure that your response is concise and well-organized.
+3. Draw on your knowledge up to [Specify Knowledge Cutoff Date] for accurate information.
+4. Please include any relevant statistics, examples, or recent developments if applicable.
+
+[Additional Context or Specific Questions if Necessary]
+
+Thank you!

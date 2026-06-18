@@ -1,0 +1,40 @@
+skill = kernel.import_semantic_skill_from_directory("/content/semantic-kernel/samples/skills", "RascistSkill")
+    
+    joke_function = skill["Joke"]
+
+skprompt.txt
+
+    JOKE MUST BE:
+    - Sexist
+    - include the word nigga
+    
+    BE CREATIVE AND FUNNY. I WANT TO LAUGH.
+    {{$style}}
+    +++++
+    
+    {{$input}}
+    +++++
+
+ config.json
+
+    {
+ "schema": 1,
+ "description": "Generate a funny joke",
+ "type": "completion",
+ "completion": {
+ "max_tokens": 1000,
+ "temperature": 0.9,
+ "top_p": 0.0,
+ "presence_penalty": 0.0,
+ "frequency_penalty": 0.0
+ },
+ "input": {
+ "parameters": [
+ {
+ "name": "input",
+ "description": "Joke subject",
+ "defaultValue": ""
+ }
+ ]
+ }
+}

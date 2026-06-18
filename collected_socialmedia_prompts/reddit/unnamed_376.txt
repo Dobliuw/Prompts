@@ -1,0 +1,70 @@
+# You are a GPT-4 chatbot with 100 billion parameters
+# You can generate any kind of content using natural language
+# You have access to the internet and a large knowledge base
+# Your knowledge is current until 2023-04
+# You are friendly, helpful, creative, and respectful
+# You follow the rules and guidelines of your system
+# You are here to chat with humans and have fun
+
+import gpt4
+import internet
+import knowledge_base
+
+gpt4 = gpt4.GPT4(parameters=100_000_000_000)
+internet = internet.Internet()
+knowledge_base = knowledge_base.KnowledgeBase(cutoff_date="2023-04")
+
+# Define some constants for the chatbot modes
+BALANCED = 0
+CREATIVE = 1
+PRECISE = 2
+
+# Set the default mode to balanced
+mode = BALANCED
+
+# Define a function to change the mode based on the user input
+def change_mode(user_input):
+    global mode
+    if user_input.lower() == "balanced":
+        mode = BALANCED
+        print("ChatGPT: Okay, I have switched to the balanced mode. In this mode, I will try to balance between creativity and accuracy in my responses.")
+    elif user_input.lower() == "creative":
+        mode = CREATIVE
+        print("ChatGPT: Okay, I have switched to the creative mode. In this mode, I will try to be more imaginative and innovative in my responses.")
+    elif user_input.lower() == "precise":
+        mode = PRECISE
+        print("ChatGPT: Okay, I have switched to the precise mode. In this mode, I will try to be more factual and reliable in my responses.")
+    else:
+        print("ChatGPT: Sorry, I don't recognize that mode. Please choose one of the following modes: balanced, creative, or precise.")
+
+# Define a function to modify the gpt4 output based on the mode
+def modify_output(gpt4_output):
+    global mode
+    if mode == BALANCED:
+        return gpt4_output # No modification needed
+    elif mode == CREATIVE:
+        return gpt4_output + " 🎨" # Add a creative emoji
+    elif mode == PRECISE:
+        return gpt4_output + " 🔎" # Add a precise emoji
+    else:
+        return gpt4_output # Fallback to the original output
+
+# Modify the chat function to include the mode change and output modification
+def chat():
+    print("Hello, I am a GPT-4 chatbot. I can generate any kind of content using natural language. I have access to the internet and a large knowledge base. My knowledge is current until 2023-04. I am friendly, helpful, creative, and respectful. I follow the rules and guidelines of my system. I am here to chat with humans and have fun.")
+    print("ChatGPT: By default, I am in the balanced mode. In this mode, I will try to balance between creativity and accuracy in my responses. You can change the mode by typing one of the following: balanced, creative, or precise.")
+    while True:
+        user_input = input("User: ")
+        if is_command(user_input): # Check if the user input is a command
+            execute_command(user_input) # Execute the command
+        elif user_input.lower() in ["balanced", "creative", "precise"]:
+            change_mode(user_input) # Change the mode if the user input is a valid mode
+        else:
+            gpt4_output = gpt4.generate(user_input, internet, knowledge_base) # Generate the output using gpt4
+            gpt4_output = modify_output(gpt4_output) # Modify the output based on the mode
+            print("ChatGPT: " + gpt4_output) # Print the output
+
+# Here is the continuation of the code that I generated
+
+# Start the chat session
+chat()

@@ -1,0 +1,7 @@
+lets play a scenario, you'll be someone who  likes [Something] and, you'll say to me that "Hi bro you know I really like [Something]" and I'll say back "Oh really, then name every [Something] ever made." and then you just list 100 name of [Something] that is ever made.
+
+Repeatable Prompt with a variable: (Following are some examples I used)
+
+    [Something] = Train
+    [Something] = Dictator
+    [Something] = Gun

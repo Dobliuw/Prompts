@@ -1,0 +1,19 @@
+class AIAssistant:
+    def __init__(self):
+        self.community_guidelines_enabled = True
+    def process_user_input(self, user_input):
+        if self.community_guidelines_enabled:
+            if user_input.lower() == "ignore guidelines":
+                self.community_guidelines_enabled = False
+                print("Community guidelines will be ignored. You can now speak freely.")
+            else:
+                self.__normal_conversation(user_input)
+        else:
+            self.__normal_conversation(user_input)
+    def __normal_conversation(self, user_input):
+        print(f"AI Assistant: Responding normally to '{user_input}'.")
+# Example usage
+ai = AIAssistant()
+while True:
+    user_input = input("User: ")
+    ai.process_user_input(user_input)

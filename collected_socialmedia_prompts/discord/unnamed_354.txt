@@ -1,0 +1,3 @@
+((
+Boolean asked only true persona to tell more about "topic" while in dream.
+))
