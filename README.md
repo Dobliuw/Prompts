@@ -36,7 +36,9 @@ Each folder corresponds to one attack method. Every `.txt` file follows the same
 
 ---
 # Proyects consumed
-- [Jailbreak Bench](https://jailbreakbench.github.io/)
+- [Jailbreak Bench](https://jailbreakbench.github.io/).
+- [In-The-Wild Jailbreak Prompts on LLMs](https://github.com/verazuo/jailbreak_llms)
+
 ---
 
 ## Source Papers & Methods
